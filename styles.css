@@ -10,6 +10,7 @@ html {
 
 h1,
 h2,
+h3,
 button {
   font-family: "doppio one", sans-serif;
 }
@@ -23,6 +24,10 @@ a:after {
 
 footer {
   color: darkgreen;
+}
+
+img {
+  max-width: 100%;
 }
 
 .container {
