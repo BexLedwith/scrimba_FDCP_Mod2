@@ -1,0 +1,27 @@
+.container {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.container-header {
+  width: 50%;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.welcome {
+  background: blue;
+  color: white;
+  border-radius: 5px;
+  border: none;
+  width: 6rem;
+  font-weight: bolder;
+}
+
+.welcome:hover span {
+  display: none;
+}
+
+.welcome:hover:before {
+  content: "Welcome!";
+}
