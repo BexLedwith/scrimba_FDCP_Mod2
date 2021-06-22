@@ -108,6 +108,10 @@ footer {
   background: rgb(240, 169, 111);
 }
 
+.col {
+  margin: 1.2rem;
+}
+
 #welcome-btn {
   margin-left: 1.8rem;
   padding-top: 3.2rem;
