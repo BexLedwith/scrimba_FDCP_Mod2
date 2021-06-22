@@ -21,6 +21,10 @@ a:after {
   color: inherit;
 }
 
+footer {
+  color: darkgreen;
+}
+
 .container {
   width: 100vw;
   margin: 0 auto;
