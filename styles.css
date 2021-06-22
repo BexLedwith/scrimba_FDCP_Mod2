@@ -64,7 +64,8 @@ img {
   height: fit-content;
 }
 
-.welcome {
+.welcome,
+.return {
   background: darkgreen;
   color: white;
   border-radius: 5px;
@@ -79,7 +80,8 @@ img {
   display: none;
 }
 
-.welcome:hover {
+.welcome:hover,
+.return:hover {
   background: greenyellow;
   color: darkgreen;
   cursor: pointer;
@@ -87,6 +89,14 @@ img {
 
 .welcome:hover:before {
   content: "Welcome!";
+}
+
+.return:hover span {
+  display: none;
+}
+
+.return:hover:before {
+  content: "Go back";
 }
 
 .center {
