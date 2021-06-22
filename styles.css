@@ -8,7 +8,9 @@ html {
   font-family: "lato", sans-serif;
 }
 
-h1 {
+h1,
+h2,
+button {
   font-family: "doppio one", sans-serif;
 }
 
@@ -22,6 +24,7 @@ a:after {
 .container {
   width: 100vw;
   margin: 0 auto;
+  padding: 2rem;
 }
 
 .container-header {
@@ -29,7 +32,7 @@ a:after {
   margin: auto;
   text-align: left;
   display: flex;
-  height: 20rem;
+  height: 50vh;
 }
 
 .hero {
@@ -38,12 +41,18 @@ a:after {
   color: white;
 }
 
+.trans-bg {
+  background: rgba(0, 0, 0, 0.5);
+  padding: 0.4rem;
+}
+
 .hero p {
   font-size: 1.2rem;
 }
 
 .header-col {
-  margin-top: 2.8rem;
+  margin-top: 30%;
+  height: fit-content;
 }
 
 .welcome {
@@ -55,7 +64,6 @@ a:after {
   font-weight: bolder;
   height: 3rem;
   font-size: 1.2rem;
-  margin-top: 4rem;
 }
 
 .welcome:hover span {
@@ -72,6 +80,31 @@ a:after {
   content: "Welcome!";
 }
 
+.center {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.center-text {
+  text-align: center;
+}
+
+.cols {
+  display: flex;
+  align-content: space-between;
+}
+
+.text-accent {
+  color: darkgreen;
+  font-style: italic;
+  font-weight: 500;
+}
+
+.bg-light {
+  background: rgb(240, 169, 111);
+}
+
 #welcome-btn {
   margin-left: 1.8rem;
+  padding-top: 3.2rem;
 }
