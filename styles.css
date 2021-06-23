@@ -65,7 +65,8 @@ img {
 }
 
 .welcome,
-.return {
+.return,
+.repo {
   background: darkgreen;
   color: white;
   border-radius: 5px;
@@ -81,7 +82,8 @@ img {
 }
 
 .welcome:hover,
-.return:hover {
+.return:hover,
+.repo:hover {
   background: greenyellow;
   color: darkgreen;
   cursor: pointer;
